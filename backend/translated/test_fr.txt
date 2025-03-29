@@ -1,0 +1,1 @@
+Bonjour, il s'agit d'un fichier de test pour vérifier la traduction de documents REST Azure.
