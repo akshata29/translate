@@ -53,7 +53,8 @@ Create `.env` in the backend root with:
 ```dotenv
 AZURE_TRANSLATOR_KEY=your-translator-key
 AZURE_REGION=eastus
-AZURE_DOCUMENT_TRANSLATOR_ENDPOINT=https://<your-endpoint>.cognitiveservices.azure.com
+AZURE_DOC_TRANSLATOR_ENDPOINT=https://<your-endpoint>.cognitiveservices.azure.com
+AZURE_TRANSLATOR_ENDPOINT=https://api.cognitive.microsofttranslator.com
 PORT=5000
 ```
 
@@ -74,7 +75,7 @@ Runs on [http://localhost:5000](http://localhost:5000)
 ```bash
 cd frontend
 npm install
-npm run dev
+npm run start
 ```
 
 Runs on [http://localhost:5173](http://localhost:5173)
